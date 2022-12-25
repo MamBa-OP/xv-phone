@@ -4,6 +4,7 @@
   import { browserMode, visibility } from './store/stores';
   import { ReceiveNUI } from "./utils/ReceiveNUI";
   import DebugBrowser from "./providers/DebugBrowser.svelte";
+  import Phone from "@components/Phone.svelte";
   
   debugData([
     {
@@ -40,6 +41,7 @@
 
 <VisibilityProvider>
 
+  <Phone />
 <!-- PUT STUFF HERE  -->
 
 </VisibilityProvider>

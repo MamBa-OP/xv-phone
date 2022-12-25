@@ -16,3 +16,7 @@ width: 100vw;
 font-size: 1.6rem;
 overflow: hidden;
 }
+
+.def-font {
+        font-family: 'SF Pro Display', sans-serif;
+    }
